@@ -1,0 +1,31 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+:root{
+    font-size: 16px;
+    height: 100%;
+    width: 100%;
+}
+
+.header{
+    height: 2vw;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header header,.header header a{
+    color: white;
+    
+}
+
+@font-face{
+    font-family: "integral cf bold";
+    src: url("Integral-CF-Font-Family/Fontspring-DEMO-integralcf-bold.otf");
+}
+body {
+    font-family: "integral cf bold";
+}
